@@ -1,0 +1,37 @@
+{
+  "name": "pdf-parser-client-side",
+  "version": "1.0.0",
+  "description": "A lightweight easy to use package to parse text from PDF files on client side without any server dependency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishwaGauravIn/pdf-parser-client-side.git"
+  },
+  "keywords": [
+    "pdf",
+    "pdf",
+    "parser",
+    "pdf",
+    "to",
+    "text",
+    "client",
+    "client",
+    "side",
+    "react",
+    "pdf",
+    "reader"
+  ],
+  "author": "VishwaGauravIn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VishwaGauravIn/pdf-parser-client-side/issues"
+  },
+  "homepage": "https://github.com/VishwaGauravIn/pdf-parser-client-side#readme",
+  "dependencies": {
+    "pdfjs-dist": "^3.11.174",
+    "react-pdf": "^7.5.0"
+  }
+}
