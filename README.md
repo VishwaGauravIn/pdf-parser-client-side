@@ -66,13 +66,15 @@ export default function Test() {
 
 The `variant` parameter is used to specify the type of text extraction and replacement to be performed on the `extractedText`. Depending on the value of the `variant` parameter, different types of characters will be removed or retained.
 
+
 | `variant` Value                                 | Description                                                                            | Regular Expression                 | Retained Characters        |
-| ----------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------- | -------------------------- | --------------------- |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------- | -------------------------- | 
 | `clean`                                         | Removes all non-ASCII characters and any spaces that follow them.                      | `/[^\x00-\x7F]+\ \*(?:[^\x00-\x7F] | )\*/g`                     | ASCII characters only |
 | `alphanumeric`                                  | Retains only alphanumeric characters (letters and numbers).                            | `/[^a-zA-Z0-9]+/g`                 | A-Z, a-z, 0-9              |
 | `alphanumericwithspace`                         | Retains alphanumeric characters and spaces.                                            | `/[^a-zA-Z0-9 ]+/g`                | A-Z, a-z, 0-9, space       |
 | `alphanumericwithspaceandpunctuation`           | Retains alphanumeric characters, spaces, and basic punctuation marks (.,!?,).          | `/[^a-zA-Z0-9 .,!?]+/g`            | A-Z, a-z, 0-9, space, .,!? |
 | `alphanumericwithspaceandpunctuationandnewline` | Retains alphanumeric characters, spaces, basic punctuation marks (.,!?), and newlines. | `/[^a-zA-Z0-9 .,!?]+/g`            | A-Z, a-z, 0-9, space, .,!? |
+
 
 #### Example Usage
 
