@@ -1,6 +1,6 @@
 {
   "name": "pdf-parser-client-side",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight easy to use package to parse text from PDF files on client side without any server dependency.",
   "main": "index.js",
   "scripts": {
